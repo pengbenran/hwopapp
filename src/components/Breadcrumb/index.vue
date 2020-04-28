@@ -75,4 +75,8 @@ export default {
     cursor: text;
   }
 }
+.navbar{
+  background: #324157;
+}
+
 </style>
