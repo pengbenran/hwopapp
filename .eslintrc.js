@@ -21,6 +21,15 @@ module.exports = {
         "allowFirstLine": false
       }
     }],
+    "vue/html-self-closing": ["error", {
+      "html": {
+          "void": "never",
+          "normal": "any",
+          "component": "any"
+      },
+      "svg": "always",
+      "math": "always"
+    }],
     "vue/singleline-html-element-content-newline": "off",
     "vue/multiline-html-element-content-newline":"off",
     "vue/name-property-casing": ["error", "PascalCase"],
@@ -166,7 +175,7 @@ module.exports = {
       'avoidEscape': true,
       'allowTemplateLiterals': true
     }],
-    'semi': [2, 'never'],
+    'semi': [0],
     'semi-spacing': [2, {
       'before': false,
       'after': true
